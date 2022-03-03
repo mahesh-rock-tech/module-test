@@ -1,0 +1,20 @@
+{
+  "name": "customrock/productlist",
+  "description": "Magento 2 - creates a new page",
+  "type": "magento2-module",
+  "version": "0.0.1",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "php": "~7.2.0||~7.4.3",
+    "mpdf/mpdf":"*"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Customdol\\Productlist\\": ""
+    }
+  }
+}
